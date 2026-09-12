@@ -26,7 +26,7 @@ def welcome_assignment_answers(question):
     elif question == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":
         answer = 3
     else:
-        answer = f"ERROR: unrecognized answer -> {question!r}"
+        answer = f"ERROR: unrecognized question -> {question!r}"
     return(answer)
 # Complete all the questions.
 if __name__ == "__main__":
